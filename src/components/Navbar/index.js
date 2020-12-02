@@ -12,7 +12,6 @@ import {
     NavBtnLink
 } from './NavbarElements';
 
-
 const Navbar = () => {
     return (
         <>
