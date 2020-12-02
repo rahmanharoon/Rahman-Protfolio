@@ -7,7 +7,9 @@ import {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks 
+    NavLinks,
+    NavBtn,
+    NavBtnLink
 } from './NavbarElements';
 
 
@@ -25,6 +27,24 @@ const Navbar = () => {
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="discover">Discover</NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="services">Services</NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="contact">Connect Me</NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to="hire">Hire Me</NavBtnLink>
+                    </NavBtn>
                 </NavbarContainer>
             </Nav>
         </>
