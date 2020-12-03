@@ -3,6 +3,11 @@ import{
     SidebarContainer,
     Icon,
     CloseIcon,
+    SidebarMenu,
+    SidebarWrapper,
+    SidebarLink,
+    SidebtnWrap,
+    SidebarRoute
 } from './SidebarElements'
 
 const Sidebar = () => {
