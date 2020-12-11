@@ -38,11 +38,11 @@ const Navbar = ({toggle}) => {
                     </NavMenu>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="contact">Connect Me</NavLinks>
+                            <NavLinks to="gallery">Gallery</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="hire">Hire Me</NavBtnLink>
+                        <NavBtnLink to="contact">Connect Me</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
