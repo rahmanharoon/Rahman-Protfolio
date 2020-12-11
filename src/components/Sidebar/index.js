@@ -27,13 +27,13 @@ const Sidebar = ({isOpen,toggle}) => {
                     <SidebarLink to="services" isOpen = {isOpen} onClick = {toggle} >
                         Services
                     </SidebarLink>
-                    <SidebarLink to="contact" isOpen = {isOpen} onClick = {toggle} >
-                        Connect Me
+                    <SidebarLink to="gallery" isOpen = {isOpen} onClick = {toggle} >
+                        Gallery
                     </SidebarLink>
                 </SidebarMenu>
                 <SidebtnWrap>
-                    <SidebarRoute to="/hire" isOpen = {isOpen} onClick = {toggle} >
-                        Hire
+                    <SidebarRoute to="/contact" isOpen = {isOpen} onClick = {toggle} >
+                    Connect Me
                     </SidebarRoute>
                 </SidebtnWrap>
             </SidebarWrapper>
