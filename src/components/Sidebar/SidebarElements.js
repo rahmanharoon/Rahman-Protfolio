@@ -27,6 +27,7 @@ export const Icon = styled.div`
     top: 1.2rem;
     right: 1.5rem;
     background: transparent;
+    font-size: 2rem;
     cursor: pointer;
     outline: none;
 `;
@@ -70,11 +71,11 @@ export const SidebtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled(LinkR)`
-    border-radius: 50px;
+    border-radius: 60px;
     background: #01bf71;
     white-space: nowrap;
-    padding: 16px 64px;
-    color: #01606;
+    padding: 16px 54px;
+    color: #010606;
     font-size: 16px;
     outline: none;
     border: none;
