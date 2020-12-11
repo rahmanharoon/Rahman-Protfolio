@@ -54,11 +54,12 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
+    text-decoration: none;
     color: #fff;
     cursor: pointer;
 
     &:hover {
-        color: 01bf71;
+        color: #01bf71;
         transition: 0.2s ease-in-out;
     }
 `;
