@@ -63,7 +63,7 @@ export const SidebarLink = styled(LinkS)`
     }
 `;
 
-export const SideBtnWrap = styled.div`
+export const SidebtnWrap = styled.div`
  display: flex;
  justify-content: center;
 `;
