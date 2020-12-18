@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-scroll'
+import { Column1, Img, ImgWrap } from './InfoElements'
 
 const InfoSection = () => {
     return (
@@ -17,6 +18,11 @@ const InfoSection = () => {
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
+                        <Column2>
+                            <ImgWrap>
+                                <Img />
+                            </ImgWrap>
+                        </Column2>
                     </InfoRow>
                 </InfoWrapper>
             </InfoContainer>
