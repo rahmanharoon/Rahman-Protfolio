@@ -1,6 +1,20 @@
 import React from 'react'
 import { Button } from 'react-scroll'
-import { Column1, Img, ImgWrap } from './InfoElements'
+import { 
+    InfoContainer,
+    InfoWrapper,
+    InfoWrapper,
+    InfoRow,
+    Column1, 
+    Column2,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    BtnWrap,
+    Img, 
+    ImgWrap 
+} from './InfoElements' 
 
 const InfoSection = () => {
     return (
