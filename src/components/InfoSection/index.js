@@ -3,7 +3,6 @@ import { Button } from 'react-scroll'
 import { 
     InfoContainer,
     InfoWrapper,
-    InfoWrapper,
     InfoRow,
     Column1, 
     Column2,
@@ -19,7 +18,7 @@ import {
 const InfoSection = () => {
     return (
         <>
-            <InfoContainer id = {id}>
+            <InfoContainer>
                 <InfoWrapper>
                     <InfoRow>
                         <Column1>
@@ -28,7 +27,7 @@ const InfoSection = () => {
                                 <Heading>Heading</Heading>
                                 <Subtitle>Subtitle</Subtitle>
                                 <BtnWrap>
-                                    <Button to = "home">Button</Button>
+                                    <Button to = "home" />
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
