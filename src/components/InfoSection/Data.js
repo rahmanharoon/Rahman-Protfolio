@@ -7,9 +7,9 @@ export const homeObjOne = {
     headline: 'Self Learned Web Developer',
     description: 'blah blah blaaah....fill that laterrrrrrrrrr',
     buttonLabel: 'Know more',
-    imgStart: false,
-    img: require('../../images/about-image.svg'),
-    alt: 'Car',
+    imgStart: true,
+    img: require('../../images/svg-1.svg'),
+    alt: 'Image',
     dark: true,
     primary: true,
     darkText: false
