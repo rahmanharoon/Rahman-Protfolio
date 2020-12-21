@@ -8,8 +8,8 @@ export const homeObjOne = {
     description: 'blah blah blaaah....fill that laterrrrrrrrrr',
     buttonLabel: 'Know more',
     imgStart: true,
-    img: require('../../images/svg-1.svg'),
-    alt: 'Image',
+    img: require("../../images/svg-1.svg"),
+    alt: 'error404',
     dark: true,
     primary: true,
     darkText: false
