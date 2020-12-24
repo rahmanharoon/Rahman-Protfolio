@@ -1,8 +1,8 @@
 import React from 'react';
 import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-2.svg';
-import Icon3 from '../../images/svg-3.svg';
-import Icon4 from '../../images/svg-4.svg';
+import Icon2 from '../../images/svg-1.svg';
+import Icon3 from '../../images/svg-1.svg';
+import Icon4 from '../../images/svg-1.svg';
 import {
     ServicesContainer,
     ServicesH1,
@@ -22,12 +22,12 @@ const Services = () => {
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Resources Datas</ServicesH2>
-                        <ServicesP>Fill Itt AND mAke itt</ServicesP>
+                        <ServicesP>Fill Itt AND mAke itt, make it betterrrr bruhhhhhh</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon2} />
                         <ServicesH2>Virtual moneyyss</ServicesH2>
-                        <ServicesP>Fill Itt AND mAke itt</ServicesP>
+                        <ServicesP>Fill Itt AND mAke itt, make it betterrrr bruhhhhhh</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon3} />
