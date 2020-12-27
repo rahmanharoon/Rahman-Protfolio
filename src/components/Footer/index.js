@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {animateScroll as scroll} from 'react-scroll'; 
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import {
     FooterContainer,
@@ -16,6 +17,11 @@ import {
     SocialIconLink
 } from './FooterElements';
 const Footer = () => {
+
+    const toggleHome = ()=> {
+        scroll.scrollToTop();
+    };
+
     return (
         <FooterContainer>
             <FooterWrap>
@@ -48,7 +54,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>
+                        <SocialLogo to='/' onClick={toggleHome}>
                             Rahman Haroon
                         </SocialLogo>
                         <WebsiteRights>Rahman Haroon © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
