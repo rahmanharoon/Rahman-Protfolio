@@ -7,9 +7,14 @@ import {
     FooterLinksContainer,
     FooterLinkItems,
     FooterLink,
-    FooterLinkTitle
+    FooterLinkTitle,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcons,
+    SocialIconLink
 } from './FooterElements';
-
 const Footer = () => {
     return (
         <FooterContainer>
@@ -44,48 +49,48 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>Rahman Haroon © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SociaIconLink 
+                            <SocialIconLink 
                             href="//www.facebook.com/rahman.haroon.7/" 
                             target="_blank" 
                             aria-label="Facebook"
                             >
                             <FaFacebook />
-                            </SociaIconLink>
-                            <SociaIconLink 
+                            </SocialIconLink>
+                            <SocialIconLink 
                             href="/" 
                             target="_blank" 
                             aria-label="Instagram"
                             >
                             <FaInstagram />
-                            </SociaIconLink>
-                            <SociaIconLink 
+                            </SocialIconLink>
+                            <SocialIconLink 
                             href="/" 
                             target="_blank" 
                             aria-label="Linkedin"
                             >
                             <FaLinkedin />
-                            </SociaIconLink>
-                            <SociaIconLink 
+                            </SocialIconLink>
+                            <SocialIconLink 
                             href="/" 
                             target="_blank" 
                             aria-label="Twitter"
                             >
                             <FaTwitter />
-                            </SociaIconLink>
-                            <SociaIconLink 
+                            </SocialIconLink>
+                            <SocialIconLink 
                             href="/" 
                             target="_blank" 
                             aria-label="Github"
                             >
                             <FaGithub />
-                            </SociaIconLink>
-                            <SociaIconLink 
+                            </SocialIconLink>
+                            <SocialIconLink 
                             href="/" 
                             target="_blank" 
                             aria-label="Youtube"
                             >
                             <FaYoutube />
-                            </SociaIconLink>
+                            </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
