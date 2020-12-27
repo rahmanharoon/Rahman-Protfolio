@@ -34,7 +34,11 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Touch With Me</FooterLinkTitle>
-                                <FooterLink to='//www.facebook.com/rahman.haroon.7/'>Facebook</FooterLink>
+                                <FooterLink href="//www.facebook.com/rahman.haroon.7/"
+                                            target="_blank"
+                                            aria-label="Facebook">
+                                                Facebook
+                                            </FooterLink>
                                 <FooterLink to='/signin'>Router</FooterLink>
                                 <FooterLink to='/signin'>New Route Us</FooterLink>
                                 <FooterLink to='/signin'>Lets Us</FooterLink>
