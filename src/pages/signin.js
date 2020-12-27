@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Contact from '../components/Contact';
 
 const SigninPage = () => {
     return (
-        <div>
-            <h1>Sign in page</h1>
-        </div>
+        <>
+            <Contact />
+        </>
     )
 }
 
