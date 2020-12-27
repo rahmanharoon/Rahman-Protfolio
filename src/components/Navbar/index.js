@@ -44,26 +44,66 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about">About</NavLinks>
+                            <NavLinks 
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >
+                            About
+                        </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="discover">Discover</NavLinks>
+                            <NavLinks 
+                            to="discover"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >
+                        Discover
+                        </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="services">Services</NavLinks>
+                            <NavLinks 
+                            to="services"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >
+                        Services
+                        </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="gallery">Gallery</NavLinks>
+                            <NavLinks 
+                            to="gallery"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >
+                        Gallery
+                        </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="contact">Connect Me</NavBtnLink>
+                        <NavBtnLink 
+                        to="contact"
+                    >
+                    Connect Me
+                    </NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
