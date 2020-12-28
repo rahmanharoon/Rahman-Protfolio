@@ -1,8 +1,8 @@
 import React from 'react';
-import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-1.svg';
-import Icon3 from '../../images/svg-1.svg';
-import Icon4 from '../../images/svg-1.svg';
+import Icon1 from '../../images/svg-5.svg';
+import Icon2 from '../../images/svg-3.svg';
+import Icon3 from '../../images/svg-2.svg';
+import Icon4 from '../../images/svg-4.svg';
 import {
     ServicesContainer,
     ServicesH1,
@@ -21,23 +21,31 @@ const Services = () => {
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
-                        <ServicesH2>Resources Datas</ServicesH2>
-                        <ServicesP>Fill Itt AND mAke itt, make it betterrrr bruhhhhhh</ServicesP>
+                        <ServicesH2>Web Designing</ServicesH2>
+                        <ServicesP>
+                        The world of web design has transformed from a minuscule industry that crafted scary pages with content
+                        </ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon2} />
-                        <ServicesH2>Virtual moneyyss</ServicesH2>
-                        <ServicesP>Fill Itt AND mAke itt, make it betterrrr bruhhhhhh</ServicesP>
+                        <ServicesH2>Web-Application</ServicesH2>
+                        <ServicesP>
+                        Developing static and dynamic responsive web-app which can be used both mobile and computers
+                        </ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon3} />
-                        <ServicesH2>Cloud services</ServicesH2>
-                        <ServicesP>Fill Itt AND mAke itt, make it betterrrr bruhhhhhh</ServicesP>
+                        <ServicesH2>Mobile Application</ServicesH2>
+                        <ServicesP>
+                        Developing mobile application which can be used on Android Operating System and Apple iOs operating system
+                        </ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon4} />
-                        <ServicesH2>Mobile app</ServicesH2>
-                        <ServicesP>Fill Itt AND mAke itt, make it betterrrr bruhhhhhh</ServicesP>
+                        <ServicesH2>Cloud-Services</ServicesH2>
+                        <ServicesP>
+                        Enhancing knowledge on different types of cloud-services like AWS and Google Cloud 
+                        </ServicesP>
                     </ServicesCard>
                 </ServicesWrapper>
             </ServicesContainer>
