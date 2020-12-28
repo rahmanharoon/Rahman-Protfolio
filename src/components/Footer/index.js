@@ -67,35 +67,35 @@ const Footer = () => {
                             <FaFacebook />
                             </SocialIconLink>
                             <SocialIconLink 
-                            href="/" 
+                            href="//www.instagram.com/rahm.n_/?hl=en" 
                             target="_blank" 
                             aria-label="Instagram"
                             >
                             <FaInstagram />
                             </SocialIconLink>
                             <SocialIconLink 
-                            href="/" 
+                            href="//www.linkedin.com/in/rahman-haroon-589520191/" 
                             target="_blank" 
                             aria-label="Linkedin"
                             >
                             <FaLinkedin />
                             </SocialIconLink>
                             <SocialIconLink 
-                            href="/" 
+                            href="//twitter.com/rahman__haroon" 
                             target="_blank" 
                             aria-label="Twitter"
                             >
                             <FaTwitter />
                             </SocialIconLink>
                             <SocialIconLink 
-                            href="/" 
+                            href="//github.com/rahmanharoon" 
                             target="_blank" 
                             aria-label="Github"
                             >
                             <FaGithub />
                             </SocialIconLink>
                             <SocialIconLink 
-                            href="/" 
+                            href="//www.youtube.com/channel/UCXpy9U8Tm93BosZKkm_XE6A" 
                             target="_blank" 
                             aria-label="Youtube"
                             >
