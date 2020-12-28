@@ -29,7 +29,8 @@ const HeroSection = () => {
                 <HeroH1>LET'S SEEK THE WORLD TOGETHER</HeroH1>
                 <HeroP>Lets GoOoO</HeroP>
                 <HeroBtnWrapper>
-                    <Button to="about" 
+                    <Button 
+                        to="about" 
                         onMouseEnter = {onHover} 
                         onMouseLeave = {onHover} 
                         primary = "true"

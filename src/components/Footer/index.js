@@ -38,7 +38,10 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Me</FooterLinkTitle>
-                                <FooterLink to='/'>Home</FooterLink>
+                                <FooterLink 
+                                to='home'
+                                exact='true'
+                                >Home</FooterLink>
                                 <FooterLink to='about'>About</FooterLink>
                                 <FooterLink to='discover'>Discover</FooterLink>
                                 <FooterLink to='services'>Services</FooterLink>
