@@ -23,7 +23,7 @@ export const homeObjTwo = {
     headline: 'fill itttt',
     description: 'blah blah blaaah....fill that laterrrrrrrrrr',
     buttonLabel: 'Learn more',
-    imgStart: true,
+    imgStart: false,
     img: require("../../images/rh2.jpeg").default,
     alt: 'error404',
     dark: false,
