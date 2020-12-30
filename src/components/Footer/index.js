@@ -25,6 +25,7 @@ import {
     SocialIcons,
     SocialIconLink
 } from './FooterElements';
+
 const Footer = () => {
 
     const toggleHome = ()=> {
@@ -39,15 +40,15 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>About Me</FooterLinkTitle>
                                 <FooterLink 
-                                to='home'
+                                to='#home'
                                 exact='true'
                                 >Home</FooterLink>
-                                <FooterLink to='about'>About</FooterLink>
-                                <FooterLink to='discover'>Discover</FooterLink>
-                                <FooterLink to='services'>Services</FooterLink>
-                                <FooterLink to='gallery'>Gallery</FooterLink>
-                                <FooterLink to='contact'>Connect With Me</FooterLink>
-                                <FooterLink to='contact'>Terms And Condition</FooterLink>
+                                <FooterLink to="#about" id={"about"} exact="true">About</FooterLink>
+                                <FooterLink to='#discover'>Discover</FooterLink>
+                                <FooterLink to='#services'>Services</FooterLink>
+                                <FooterLink to='#gallery'>Gallery</FooterLink>
+                                <FooterLink to='#contact'>Connect With Me</FooterLink>
+                                <FooterLink to='#terms'>Terms And Condition</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
