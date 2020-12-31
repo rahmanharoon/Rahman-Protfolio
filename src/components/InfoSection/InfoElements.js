@@ -86,7 +86,7 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 494px;
+    max-width: 500px;
     height: 100%;
 `;
 
