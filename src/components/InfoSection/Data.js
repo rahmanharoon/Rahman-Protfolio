@@ -7,7 +7,7 @@ export const homeObjOne = {
     headline: 'Web Developer',
     description: 'I am passionate about building excellent software that improves the lives of those around me'
         + ' I specialize in creating Website and Web-App for clients ranging from individuals and small-businesses all the way to large enterprise corporations',
-    buttonLabel: 'Know more',
+    buttonLabel: 'Know More...!',
     imgStart: false,
     img: require("../../images/rh1.jpeg").default,
     alt: 'error404',
