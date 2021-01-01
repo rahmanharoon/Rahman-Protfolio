@@ -5,7 +5,8 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'RAHMAN HAROON',
     headline: 'Web Developer',
-    description: 'blah blah blaaah....fill that laterrrrrrrrrr',
+    description: 'I am passionate about building excellent software that improves the lives of those around me'
+        + ' I specialize in creating Website and Web-App for clients ranging from individuals and small-businesses all the way to large enterprise corporations',
     buttonLabel: 'Know more',
     imgStart: false,
     img: require("../../images/rh1.jpeg").default,
