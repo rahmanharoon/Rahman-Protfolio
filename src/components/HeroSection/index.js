@@ -26,8 +26,8 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type = 'video/mp4' />
             </HeroBg>    
             <HeroContent>
-                <HeroH1>LET'S SEEK THE WORLD TOGETHER</HeroH1>
-                <HeroP>Lets GoOoO</HeroP>
+                <HeroH1>HeLoO...I am Rahman Haroon</HeroH1>
+                <HeroP>I'm a Full-stack developer from India</HeroP>  
                 <HeroBtnWrapper>
                     <Button 
                         to="about" 
@@ -41,7 +41,13 @@ const HeroSection = () => {
                         exact='true'
                         offset={-80}
                     >
-                    Get Started{ hover ? <ArrowForward /> : <ArrowRight /> }
+                    Know more!
+                    { 
+                    hover ? 
+                    <ArrowForward /> 
+                    : 
+                    <ArrowRight /> 
+                    }
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
