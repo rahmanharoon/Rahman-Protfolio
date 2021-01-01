@@ -41,7 +41,7 @@ const HeroSection = () => {
                         exact='true'
                         offset={-80}
                     >
-                    Know more!
+                    Lets GoOo..!
                     { 
                     hover ? 
                     <ArrowForward /> 
