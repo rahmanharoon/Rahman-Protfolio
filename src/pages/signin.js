@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Contact from '../components/Contact';
-import Navbar from '../components/Navbar';
+import ContactNavbar from '../components/ContactNavbar';
 import Sidebar from '../components/Sidebar';
 
 const SigninPage = () => {
@@ -13,7 +13,7 @@ const SigninPage = () => {
     return (
         <>
             <Sidebar isOpen = {isOpen} toggle = {toggle} />
-            <Navbar toggle = {toggle} />
+            <ContactNavbar toggle = {toggle} />
             <Contact />
         </>
     )
