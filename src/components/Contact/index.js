@@ -10,7 +10,6 @@ import {
         FormH1,
         FormButton,
         Text
-
     } from './ContactElements'
 
 const Contact = () => {
@@ -18,30 +17,47 @@ const Contact = () => {
         <>
           <Container>
               <FormWrap>
-                  <Icon to="/">Rahman Haroon</Icon>
+                  {/* <Icon to="/">Rahman Haroon</Icon> */}
                   <FormContent>
-                      <Form action="#">
-                          <FormH1>
-                              Connect With Me..!
-                          </FormH1>
-                          <FormLabel htmlFor='for'>
-                              Name
-                          </FormLabel>
-                          <FormInput type='name' required />
-                          <FormLabel htmlFor='for'>
-                              Email
-                          </FormLabel>
-                          <FormInput type='number' required />
-                          <FormLabel htmlFor='for'>
-                              Mobile Number
-                          </FormLabel>
-                          <FormInput type='text' required />
-                          <FormLabel htmlFor='for'>
-                              Message
-                          </FormLabel>
-                          <FormButton type='submit'>
-                              SEND
-                          </FormButton>
+                      <Form action="POST">
+                        <FormH1>
+                              Get in touch
+                        </FormH1>
+                        <FormLabel 
+                            htmlFor='name'>
+                            Full  Name
+                        </FormLabel>
+                        <FormInput 
+                            type='text' 
+                            required  
+                            name="name"
+                            noValidate
+                            placeholder = "Type Your full Name" 
+                        />
+                        <FormLabel 
+                            htmlFor='for'>
+                            Email
+                        </FormLabel>
+                        <FormInput  
+                            required 
+                            type="email" 
+                            name="email"
+                            noValidate 
+                            placeholder = "Type Your E-Mail" 
+                        />
+                        <FormLabel 
+                            htmlFor='for'>
+                            Message
+                        </FormLabel>
+                        <FormInput 
+                          type='textarea' 
+                          rows="5" 
+                          required placeholder = "Type your message" 
+                        />
+                        <FormButton 
+                          type='submit'>
+                          SEND
+                        </FormButton>
                       </Form>
                   </FormContent>
               </FormWrap>
