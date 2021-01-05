@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Contact from '../components/Contact';
 import ContactNavbar from '../components/ContactNavbar';
-import Sidebar from '../components/Sidebar';
+import ContactSidebar from '../components/ContactSidebar';
 
 const SigninPage = () => {
 
@@ -12,7 +12,7 @@ const SigninPage = () => {
 
     return (
         <>
-            <Sidebar isOpen = {isOpen} toggle = {toggle} />
+            <ContactSidebar isOpen = {isOpen} toggle = {toggle} />
             <ContactNavbar toggle = {toggle} />
             <Contact />
         </>
