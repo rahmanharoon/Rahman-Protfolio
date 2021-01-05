@@ -9,9 +9,7 @@ import {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks,
-    NavBtn,
-    NavBtnLink
+    NavLinks
 } from './NavbarElements';
 
 const ContactNavbar = ({toggle}) => {
