@@ -2,6 +2,7 @@
   "name": "rahmanstatic_website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rahmanharoon.github.io/Rahman-Protfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm start",
+    "deploy": "gh-pages -d start"
   },
   "eslintConfig": {
     "extends": [
