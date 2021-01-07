@@ -2,7 +2,7 @@
   "name": "rahmanstatic_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rahmanharoon.github.io/Rahman-Protfolio/",
+  "homepage": "https://rahmanharoon.github.io/Rahman-Protfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
