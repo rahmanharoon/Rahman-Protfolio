@@ -30,9 +30,9 @@ const Sidebar = ({isOpen,toggle}) => {
                     <SidebarLink to="services" isOpen = {isOpen} onClick = {toggle} >
                         Services
                     </SidebarLink>
-                    <SidebarLink to="gallery" isOpen = {isOpen} onClick = {toggle} >
+                    {/* <SidebarLink to="gallery" isOpen = {isOpen} onClick = {toggle} >
                         Gallery
-                    </SidebarLink>
+                    </SidebarLink> */}
                 </SidebarMenu>
                 <SidebtnWrap>
                     <SidebarRoute to="/contact" isOpen = {isOpen} onClick = {toggle} >

@@ -85,7 +85,7 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavMenu>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks 
                             to="gallery"
                             smooth={true}
@@ -96,7 +96,7 @@ const Navbar = ({toggle}) => {
                         >
                         Gallery
                         </NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink 
