@@ -44,11 +44,11 @@ const Footer = () => {
                                 exact='true'
                                 >Home</FooterLink>
                                 <FooterLink to="#about" id={"about"} exact="true">About</FooterLink>
-                                <FooterLink to='#discover'>Discover</FooterLink>
-                                <FooterLink to='#services'>Services</FooterLink>
-                                <FooterLink to='#gallery'>Gallery</FooterLink>
-                                <FooterLink to='#contact'>Connect With Me</FooterLink>
-                                <FooterLink to='#terms'>Terms And Condition</FooterLink>
+                                <FooterLink to='#discover' id={"discover"} exact="true">Discover</FooterLink>
+                                <FooterLink to='#services' id={"services"} exact="true">Services</FooterLink>
+                                <FooterLink to='#gallery' id={"gallery"} exact="true">Gallery</FooterLink>
+                                <FooterLink to='#contact' id={"contact"} exact="true">Connect With Me</FooterLink>
+                                <FooterLink to='#terms' id={"terms"} exact="true">Terms And Condition</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
