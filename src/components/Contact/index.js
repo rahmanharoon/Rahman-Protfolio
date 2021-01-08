@@ -5,11 +5,9 @@ import {
         FormInput, 
         FormLabel, 
         FormWrap,
-        Icon,
         Form,
         FormH1,
-        FormButton,
-        Text
+        FormButton
     } from './ContactElements'
 
 const Contact = () => {
@@ -19,7 +17,10 @@ const Contact = () => {
               <FormWrap>
                   {/* <Icon to="/">Rahman Haroon</Icon> */}
                   <FormContent>
-                      <Form action="POST">
+                      <Form 
+                            id="g-from"
+                            action="https://script.google.com/macros/s/AKfycbxQKogJ7pl4jVMAGqHQYo25mjm2MefALn5VvQQJrMVxcCDB1eejQqKD/exec" 
+                            method="POST">
                         <FormH1>
                               Get in touch
                         </FormH1>
@@ -50,12 +51,15 @@ const Contact = () => {
                             Message
                         </FormLabel>
                         <FormInput 
-                          type='textarea' 
-                          rows="5" 
-                          required placeholder = "Type your message" 
+                          type='text'
+                          name='message'
+                          noValidate 
+                          required 
+                          placeholder = "Type your message" 
                         />
                         <FormButton 
-                          type='submit'>
+                          type='submit'
+                          value='submit'>
                           SEND
                         </FormButton>
                       </Form>
