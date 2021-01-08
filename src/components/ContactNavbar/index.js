@@ -43,6 +43,21 @@ const ContactNavbar = ({toggle}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks 
+                            to="/#home" 
+                            id={"home"}
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >
+                            Home
+                        </NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks 
                             to="/#about" 
                             id={"about"}
                             smooth={true}
