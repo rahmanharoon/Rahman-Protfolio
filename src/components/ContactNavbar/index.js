@@ -43,7 +43,8 @@ const ContactNavbar = ({toggle}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks 
-                            to="about"
+                            to="/#about" 
+                            id={"about"}
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -57,7 +58,7 @@ const ContactNavbar = ({toggle}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks 
-                            to="discover"
+                            to="/#discover"
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -71,7 +72,7 @@ const ContactNavbar = ({toggle}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks 
-                            to="services"
+                            to="/#services"
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -83,9 +84,9 @@ const ContactNavbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavMenu>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks 
-                            to="gallery"
+                            to="#gallery"
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -94,7 +95,7 @@ const ContactNavbar = ({toggle}) => {
                         >
                         Gallery
                         </NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

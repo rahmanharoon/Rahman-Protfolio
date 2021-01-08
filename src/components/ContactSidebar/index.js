@@ -16,21 +16,21 @@ const ContactSidebar = ({isOpen,toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                <SidebarLink to="home" isOpen = {isOpen} onClick = {toggle} >
+                <SidebarLink to="/#home" id='home' isOpen = {isOpen} onClick = {toggle} >
                         Home
                     </SidebarLink>
-                    <SidebarLink to="about" isOpen = {isOpen} onClick = {toggle} >
+                    <SidebarLink to="/#about" isOpen = {isOpen} onClick = {toggle} >
                         About
                     </SidebarLink>
-                    <SidebarLink to="discover" isOpen = {isOpen} onClick = {toggle} >
+                    <SidebarLink to="/#discover" isOpen = {isOpen} onClick = {toggle} >
                         Discover
                     </SidebarLink>
-                    <SidebarLink to="services" isOpen = {isOpen} onClick = {toggle} >
+                    <SidebarLink to="/#services" isOpen = {isOpen} onClick = {toggle} >
                         Services
                     </SidebarLink>
-                    <SidebarLink to="gallery" isOpen = {isOpen} onClick = {toggle} >
+                    {/* <SidebarLink to="#gallery" isOpen = {isOpen} onClick = {toggle} >
                         Gallery
-                    </SidebarLink>
+                    </SidebarLink> */}
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>
