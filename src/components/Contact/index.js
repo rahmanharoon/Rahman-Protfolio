@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { 
         Container,
         FormContent, 
@@ -8,9 +8,24 @@ import {
         Form,
         FormH1,
         FormButton
-    } from './ContactElements'
+    } from './ContactElements';
+import emailjs from 'emailjs-com'
+// import $ from 'jquery';
 
 const Contact = () => {
+    
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_w3b3gkh', 'template_4z8e5va', e.target, 'user_ZbvqD7MNOhe74X1sRmfsz')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+    }
+
     return (
         <>
           <Container>
@@ -18,9 +33,9 @@ const Contact = () => {
                   {/* <Icon to="/">Rahman Haroon</Icon> */}
                   <FormContent>
                       <Form 
-                            id="g-from"
-                            action="https://script.google.com/macros/s/AKfycbxQKogJ7pl4jVMAGqHQYo25mjm2MefALn5VvQQJrMVxcCDB1eejQqKD/exec" 
-                            method="POST">
+                            id="contact-form"
+                            action="" 
+                            onSubmit={sendEmail}>
                         <FormH1>
                               Get in touch
                         </FormH1>
