@@ -9,8 +9,13 @@ export const InfoContainer = styled.div`
         padding: 100px 0;
     }
 
+    @media screen and (max-width: 480px) {
+        height: 850px;
+        padding: 100px 0;
+    }
+
     @media screen and (max-width: 360px) {
-        height: 1000px;
+        height: 930px;
         padding: 100px 0;
     }
 `;
