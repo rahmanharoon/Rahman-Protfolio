@@ -26,6 +26,10 @@ const Contact = () => {
           e.target.reset()
     }
 
+    function myFunction() {
+        alert("Thank you for your message!")
+        }
+
     return (
         <>
           <Container>
@@ -74,7 +78,8 @@ const Contact = () => {
                         />
                         <FormButton 
                           type='submit'
-                          value='submit'>
+                          value='submit'
+                          onClick={myFunction}>
                           SEND
                         </FormButton>
                       </Form>
