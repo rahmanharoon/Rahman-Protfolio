@@ -14,8 +14,8 @@ export const InfoContainer = styled.div`
         padding: 100px 0;
     }
 
-    @media screen and (max-width: 360px) {
-        height: 930px;
+    @media screen and (max-width: 380px) {
+        height: 980px;
         padding: 100px 0;
     }
 `;

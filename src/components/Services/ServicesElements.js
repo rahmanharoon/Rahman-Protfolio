@@ -12,15 +12,19 @@ export const ServicesContainer = styled.div`
         height: 600px;
     }
 
-    @media screen and (max-width: 768px) {
-        height: 1500px;
+    @media screen and (max-width: 1050px) {
+        height: 1000px;
+    }
+
+    @media screen and (max-width: 780px) {
+        height: 1600px;
     }
 
     @media screen and (max-width: 480px) {
         height: 1300px;
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 380px) {
         height: 1600px;
     }
 `;
