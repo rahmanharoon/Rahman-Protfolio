@@ -47,7 +47,7 @@ const Footer = () => {
                                 <FooterLink to='#discover' id={"discover"} exact="true">Discover</FooterLink>
                                 <FooterLink to='#services' id={"services"} exact="true">Services</FooterLink>
                                 <FooterLink to='#gallery' id={"gallery"} exact="true">Gallery</FooterLink>
-                                <FooterLink to='#contact' id={"contact"} exact="true">Connect With Me</FooterLink>
+                                <FooterLink to='#contact' id={"contact"} exact="true">Contact</FooterLink>
                                 <FooterLink to='#terms' id={"terms"} exact="true">Terms And Condition</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
